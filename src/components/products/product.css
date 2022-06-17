@@ -1,0 +1,23 @@
+
+  .ptext1{
+    font-size: 5vw;
+    padding-top: 10%;
+  }
+  .ptext1 ,.ptext2 { 
+    text-align: center;
+    font-weight: 600;
+  }
+  @media screen and (max-width: 768px) {
+  
+    .ptext1{
+      font-size: 5vw;
+      padding-top: 45%;
+      
+    }
+    .ptext1 ,.ptext2 { 
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+  
+ 

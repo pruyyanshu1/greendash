@@ -1,0 +1,60 @@
+.blog img {
+    width: 100%;
+    height: 100%;
+  }
+  .blog .text {
+    padding: 40px 30px;
+  }
+  .blog h1 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 20px 0;
+    transition: 0.5s;
+  }
+  .blog h1:hover {
+    color: #96b85d;
+    cursor: pointer;
+  }
+  .blog span {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #4F7942;
+  }
+  .blog span label {
+    margin-left: 10px;
+    color: grey;
+    font-size: 14px;
+  }
+  .blog span:nth-last-child(1) label {
+    color:4F7942;
+  }
+  .blog p {
+    color: grey;
+  }
+  .faq .container {
+    max-width: 70%;
+    border-radius: 5px;
+  }
+  .faq .box {
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  .faq button {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 20px;
+  }
+  .faq h2 {
+    font-weight: 500;
+  }
+  .faq p {
+    padding: 20px;
+  }
+  .faq .accordion:hover {
+    background-color: #4F7942;
+    color: #fff;
+  }
